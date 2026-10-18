@@ -1,0 +1,9 @@
+# Local planning and environment files
+/handoff.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+__pycache__/
