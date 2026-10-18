@@ -2,7 +2,7 @@
 
 - **Concept ID:** AIC-ROS-001
 - **Concept formation date:** 2026-10-18 (project-owner declaration)
-- **Public publication date:** Pending verified publication
+- **Public publication date:** 2026-10-18 (UTC; see publication record)
 - **Status:** Exploratory Concept
 - **Author/Project:** AI Craft: Agent Lab
 - **Version:** 1.0
