@@ -1,0 +1,19 @@
+{
+  "compiled": {
+    "compiled": true,
+    "output": "<temporary-directory>/bundle",
+    "files": 26,
+    "revision": "2e1f5cddc6ba6644a62a9bce3511c30328d1ff39033860eb8879ad7fb1a28ea8",
+    "bundle_sha256": "6792ecf604046ba32d51fe8eff15dee0df60e1afa6ecf9c014e2ab2d1b3ef869",
+    "entries": 7,
+    "chunks": 30
+  },
+  "check": {
+    "valid": true,
+    "missing": [],
+    "unexpected": [],
+    "changed": [],
+    "invalid_paths": [],
+    "files": 26
+  }
+}

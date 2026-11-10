@@ -17,6 +17,9 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python -m bsp_kb build > /tmp/bsp-index.json
       - run: python -m bsp_kb evaluate
+      - run: python -m bsp_kb compile --output /tmp/bsp-views
+      - run: python -m bsp_kb check --output /tmp/bsp-views
+      - run: python -m bsp_kb diagnose-uart tests/fixtures/uart/rootfs.txt
   sources:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest

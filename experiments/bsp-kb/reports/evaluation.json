@@ -176,8 +176,8 @@
       "passed": true,
       "query": "root filesystem init 開機診斷",
       "retrieved": [
-        "bsp",
-        "buildroot"
+        "buildroot",
+        "uart-diagnostics"
       ]
     },
     {
@@ -187,6 +187,7 @@
       "passed": true,
       "query": "virt-8.2 機器模型",
       "retrieved": [
+        "bsp",
         "buildroot"
       ]
     },

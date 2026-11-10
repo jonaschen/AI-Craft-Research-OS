@@ -1,0 +1,2 @@
+[    0.000000] Linux version 6.12-synthetic
+[    2.000000] Kernel panic - not syncing: No working init found.

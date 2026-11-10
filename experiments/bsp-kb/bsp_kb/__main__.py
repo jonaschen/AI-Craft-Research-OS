@@ -123,6 +123,12 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
     for name in ('validate', 'build', 'export', 'evaluate'):
         sub.add_parser(name)
+    p = sub.add_parser('compile')
+    p.add_argument('--output', type=Path, required=True)
+    p = sub.add_parser('check')
+    p.add_argument('--output', type=Path, required=True)
+    p = sub.add_parser('diagnose-uart')
+    p.add_argument('log', type=Path)
     p = sub.add_parser('search')
     p.add_argument('query')
     p.add_argument('--topic')
@@ -130,6 +136,23 @@ def main():
     p.add_argument('--json', action='store_true')
     args = parser.parse_args()
     try:
+        if args.command == 'diagnose-uart':
+            from .diagnostics import MAX_BYTES, analyze_uart
+            with args.log.open('rb') as stream:
+                raw = stream.read(MAX_BYTES + 1)
+            if len(raw) > MAX_BYTES:
+                raise ValueError('UART input exceeds 1 MiB')
+            print(json.dumps(analyze_uart(raw.decode('utf-8')), ensure_ascii=False, indent=2))
+            return 0
+        if args.command == 'check':
+            from .compiler import check_views
+            result = check_views(args.root, args.output)
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 0 if result['valid'] else 1
+        if args.command == 'compile':
+            from .compiler import compile_views
+            print(json.dumps(compile_views(args.root, args.output), ensure_ascii=False, indent=2))
+            return 0
         chunks = build(args.root)
         if args.command == 'validate':
             result = {'valid': True, 'chunks': len(chunks)}

@@ -79,5 +79,21 @@
     "status": "source-checked; expert-review-pending",
     "path": "buildroot.md",
     "license": "Original content; repository license not selected"
+  },
+  {
+    "id": "uart-diagnostics",
+    "title": "UART 日誌的無狀態診斷",
+    "topic": "diagnostics",
+    "version": "Linux v6.12 signatures; analyzer v1",
+    "sources": [
+      "linux-mount",
+      "linux-init",
+      "linux-panic"
+    ],
+    "reviewed": "2026-11-10",
+    "status": "source-checked; expert-review-pending",
+    "path": "uart-diagnostics.md",
+    "license": "Original content; repository license not selected",
+    "diataxis": "how-to"
   }
 ]

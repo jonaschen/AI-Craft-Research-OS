@@ -29,8 +29,9 @@ python3 -m bsp_kb evaluate
 4. [Device Tree](content/devicetree.md)
 5. [核心設定與驅動](content/drivers.md)
 6. [Buildroot 與診斷](content/buildroot.md)
+7. [UART 無狀態診斷](content/uart-diagnostics.md)
 
-每課對應 [練習與評分規則](evaluation/exercises.md) 中同序號題目。答案與 `evaluation/cases.json` 不納入 `build` 或 `export`。這是匯出邊界，不是作業系統的保密隔離：使用 Agent 時只提供匯出檔案，不給它完整倉庫存取權。
+前六課對應 [練習與評分規則](evaluation/exercises.md) 中同序號題目。答案與 `evaluation/cases.json` 不納入 `build` 或 `export`。這是匯出邊界，不是作業系統的保密隔離：使用 Agent 時只提供匯出檔案，不給它完整倉庫存取權。
 
 ## 來源與新增內容
 
@@ -49,3 +50,17 @@ python3 check_sources.py
 ## 驗證範圍
 
 [驗證報告](reports/validation.md) 包含檢索結果與 QEMU 實測邊界。[QEMU 操作指南](qemu-lab.md) 分開記錄已執行的 DTB 實驗與未執行的韌體建置。未執行完整 Linux 開機、學習者前後測、Agent 回答評分或 A/B 實驗。教材版本是重現基線，不是最新版本或生產環境建議。
+
+## 一源雙用編譯與漂移檢查
+
+同一份 entries.json、sources.json 與 content 編譯成人類 Markdown 視圖、llms.txt、Agent context 與可攜技能包。這是檔案產物，不啟動網站或 MCP 服務。輸出目錄必須不存在；工具拒絕覆寫既有資料。
+
+```sh
+python3 -m bsp_kb compile --output /tmp/bsp-views
+python3 -m bsp_kb check --output /tmp/bsp-views
+python3 -m bsp_kb diagnose-uart tests/fixtures/uart/rootfs.txt
+```
+
+`check` 重新計算預期產物，回報 missing／changed／unexpected；漂移時結束碼為 1。manifest 將內容、編譯器與產物雜湊綁定；它不是數位簽章或來源真實性的證明。四個 Diátaxis 入口標示內容缺口，不將原有概念教材冒稱完整教學課程。技能包是建置產物，不自動安裝或啟用。
+
+UART 分析是純文字規則工具：不連接硬體、不執行日誌命令、不判定唯一根因。樣本全為合成測試，輸出只含匹配標記而不附原始整行。詳見新增教材與 `tests/fixtures/uart/README.md`。

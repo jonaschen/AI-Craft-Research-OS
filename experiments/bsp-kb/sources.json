@@ -117,5 +117,56 @@
       "redistribution": "source URL and metadata; no upstream full text"
     },
     "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  },
+  {
+    "id": "linux-mount",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/init/do_mounts.c",
+    "version": "Linux v6.12",
+    "author": "Linux contributors",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "2826547dadbd1ca27c694a419a82b149c38f18c693b2e049319790316fc85e15",
+    "scope": "Entire raw file bytes; source body not redistributed",
+    "reuse_basis": "Public GPL source consulted for short diagnostic message identifiers; original diagnostic workflow, no source implementation copied",
+    "permissions": {
+      "access": "public source",
+      "model_transmission": "public source",
+      "redistribution": "metadata and short error identifiers only"
+    },
+    "transformations": "Original signature matching and Chinese diagnostic checks"
+  },
+  {
+    "id": "linux-init",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/init/main.c",
+    "version": "Linux v6.12",
+    "author": "Linux contributors",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "dfa6cecef3ee0c4ef3e9768d161f7739d9fbfa5c0a821c11ee53afde8dca3ec6",
+    "scope": "Entire raw file bytes; source body not redistributed",
+    "reuse_basis": "Public GPL source consulted for short diagnostic message identifiers; original diagnostic workflow, no source implementation copied",
+    "permissions": {
+      "access": "public source",
+      "model_transmission": "public source",
+      "redistribution": "metadata and short error identifiers only"
+    },
+    "transformations": "Original signature matching and Chinese diagnostic checks"
+  },
+  {
+    "id": "linux-panic",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/kernel/panic.c",
+    "version": "Linux v6.12",
+    "author": "Linux contributors",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "9dfe3dbb13d86b8f0d0b58e02e8ceebc3a55d3a30c1ce915ed8fbd8063168d6b",
+    "scope": "Entire raw file bytes; source body not redistributed",
+    "reuse_basis": "Public GPL source consulted for short diagnostic message identifiers; original diagnostic workflow, no source implementation copied",
+    "permissions": {
+      "access": "public source",
+      "model_transmission": "public source",
+      "redistribution": "metadata and short error identifiers only"
+    },
+    "transformations": "Original signature matching and Chinese diagnostic checks"
   }
 ]

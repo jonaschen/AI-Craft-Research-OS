@@ -14,7 +14,7 @@ AI Craft Research OS explores a human-directed approach to research with AI assi
 
 **Status: Research with an executable BSP knowledge experiment**
 
-No operational Research OS implementation is claimed. The repository now includes a scoped [BSP knowledge MVP](experiments/bsp-kb/README.md): Traditional Chinese lessons, offline retrieval, source provenance, tests and a development benchmark. This experiment does not demonstrate a complete Research OS or general agent capability.
+No operational Research OS implementation is claimed. The repository now includes a scoped [BSP knowledge MVP](experiments/bsp-kb/README.md): Traditional Chinese lessons, offline retrieval, deterministic human/agent bundles, stateless UART signature analysis, source provenance, tests and a development benchmark. This experiment does not demonstrate a complete Research OS or general agent capability.
 
 ## Documents
 
