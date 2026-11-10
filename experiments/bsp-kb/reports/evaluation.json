@@ -1,0 +1,209 @@
+{
+  "cases": [
+    {
+      "expected": [
+        "bsp"
+      ],
+      "passed": true,
+      "query": "BSP 元件責任",
+      "retrieved": [
+        "bsp"
+      ]
+    },
+    {
+      "expected": [
+        "bsp"
+      ],
+      "passed": true,
+      "query": "虛擬平台能驗證 DDR 訓練嗎",
+      "retrieved": [
+        "bsp",
+        "uboot"
+      ]
+    },
+    {
+      "expected": [
+        "bsp"
+      ],
+      "passed": true,
+      "query": "板級支援與使用者空間",
+      "retrieved": [
+        "bsp",
+        "uboot"
+      ]
+    },
+    {
+      "expected": [
+        "boot"
+      ],
+      "passed": true,
+      "query": "x0 DTB 位址",
+      "retrieved": [
+        "boot",
+        "devicetree",
+        "uboot"
+      ]
+    },
+    {
+      "expected": [
+        "boot"
+      ],
+      "passed": true,
+      "query": "Image.gz 解壓縮",
+      "retrieved": [
+        "boot"
+      ]
+    },
+    {
+      "expected": [
+        "boot"
+      ],
+      "passed": true,
+      "query": "DTB 對齊限制",
+      "retrieved": [
+        "boot",
+        "bsp",
+        "devicetree"
+      ]
+    },
+    {
+      "expected": [
+        "uboot"
+      ],
+      "passed": true,
+      "query": "qemu_arm64_defconfig",
+      "retrieved": [
+        "uboot"
+      ]
+    },
+    {
+      "expected": [
+        "uboot"
+      ],
+      "passed": true,
+      "query": "如何離開 QEMU 終端",
+      "retrieved": [
+        "buildroot",
+        "uboot"
+      ]
+    },
+    {
+      "expected": [
+        "uboot"
+      ],
+      "passed": true,
+      "query": "U-Boot 提示符代表 Linux 開機嗎",
+      "retrieved": [
+        "uboot"
+      ]
+    },
+    {
+      "expected": [
+        "devicetree"
+      ],
+      "passed": true,
+      "query": "compatible bindings",
+      "retrieved": [
+        "devicetree"
+      ]
+    },
+    {
+      "expected": [
+        "devicetree"
+      ],
+      "passed": true,
+      "query": "DTS DTB 硬體描述",
+      "retrieved": [
+        "devicetree"
+      ]
+    },
+    {
+      "expected": [
+        "devicetree"
+      ],
+      "passed": true,
+      "query": "修改裝置樹可以替代驅動嗎",
+      "retrieved": [
+        "devicetree",
+        "drivers"
+      ]
+    },
+    {
+      "expected": [
+        "drivers"
+      ],
+      "passed": true,
+      "query": "match probe",
+      "retrieved": [
+        "drivers"
+      ]
+    },
+    {
+      "expected": [
+        "drivers"
+      ],
+      "passed": true,
+      "query": "如何保存核心組態",
+      "retrieved": [
+        "buildroot",
+        "drivers"
+      ]
+    },
+    {
+      "expected": [
+        "drivers"
+      ],
+      "passed": true,
+      "query": "驅動綁定 bus",
+      "retrieved": [
+        "drivers"
+      ]
+    },
+    {
+      "expected": [
+        "buildroot"
+      ],
+      "passed": true,
+      "query": "output/images",
+      "retrieved": [
+        "buildroot"
+      ]
+    },
+    {
+      "expected": [
+        "buildroot"
+      ],
+      "passed": true,
+      "query": "root filesystem init 開機診斷",
+      "retrieved": [
+        "bsp",
+        "buildroot"
+      ]
+    },
+    {
+      "expected": [
+        "buildroot"
+      ],
+      "passed": true,
+      "query": "virt-8.2 機器模型",
+      "retrieved": [
+        "buildroot"
+      ]
+    },
+    {
+      "expected": [],
+      "passed": true,
+      "query": "烘焙蛋糕食譜",
+      "retrieved": []
+    },
+    {
+      "expected": [],
+      "passed": true,
+      "query": "photosynthesis chlorophyll",
+      "retrieved": []
+    }
+  ],
+  "limitations": "Author-created development set; not independent expert or agent accuracy evaluation.",
+  "passed": true,
+  "recall_at_3": 1.0
+}

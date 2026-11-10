@@ -1,0 +1,23 @@
+{
+  "command": [
+    "qemu-system-aarch64",
+    "-machine",
+    "virt-8.2,dumpdtb=<temporary-directory>/virt.dtb",
+    "-cpu",
+    "cortex-a57",
+    "-m",
+    "512",
+    "-nographic"
+  ],
+  "version": "QEMU emulator version 8.2.2 (Debian 1:8.2.2+ds-0ubuntu1.18)",
+  "exit_code": 0,
+  "stderr": "qemu-system-aarch64: info: dtb dumped to <temporary-directory>/virt.dtb. Exiting.\n",
+  "dtb_sha256": "54ee76a0c314a532802f0279d711ed320f968642fa1d7aca6e8d8572e3a7b7b0",
+  "dtb_bytes": 1048576,
+  "checks": [
+    "FDT magic d00dfeed",
+    "dtc decode succeeded",
+    "arm,pl011 present"
+  ],
+  "limitation": "DTB generation only; no firmware or Linux boot performed"
+}

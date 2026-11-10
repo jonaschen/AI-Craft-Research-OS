@@ -12,9 +12,9 @@ AI Craft Research OS explores a human-directed approach to research with AI assi
 
 ## Project status
 
-**Status: Concept / Early Research**
+**Status: Research with an executable BSP knowledge experiment**
 
-No operational Research OS implementation is claimed. This repository currently contains concept declarations, research questions, a research roadmap, and publication records. Future research may include public experiments and reproducible benchmarks.
+No operational Research OS implementation is claimed. The repository now includes a scoped [BSP knowledge MVP](experiments/bsp-kb/README.md): Traditional Chinese lessons, offline retrieval, source provenance, tests and a development benchmark. This experiment does not demonstrate a complete Research OS or general agent capability.
 
 ## Documents
 

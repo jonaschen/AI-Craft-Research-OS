@@ -1,0 +1,28 @@
+name: BSP knowledge checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: experiments/bsp-kb
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m bsp_kb validate
+      - run: python -m unittest discover -s tests -v
+      - run: python -m bsp_kb build > /tmp/bsp-index.json
+      - run: python -m bsp_kb evaluate
+  sources:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python experiments/bsp-kb/check_sources.py

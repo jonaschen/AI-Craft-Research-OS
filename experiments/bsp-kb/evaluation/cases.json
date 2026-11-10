@@ -1,0 +1,118 @@
+[
+  {
+    "query": "BSP 元件責任",
+    "expected": [
+      "bsp"
+    ]
+  },
+  {
+    "query": "虛擬平台能驗證 DDR 訓練嗎",
+    "expected": [
+      "bsp"
+    ]
+  },
+  {
+    "query": "板級支援與使用者空間",
+    "expected": [
+      "bsp"
+    ]
+  },
+  {
+    "query": "x0 DTB 位址",
+    "expected": [
+      "boot"
+    ]
+  },
+  {
+    "query": "Image.gz 解壓縮",
+    "expected": [
+      "boot"
+    ]
+  },
+  {
+    "query": "DTB 對齊限制",
+    "expected": [
+      "boot"
+    ]
+  },
+  {
+    "query": "qemu_arm64_defconfig",
+    "expected": [
+      "uboot"
+    ]
+  },
+  {
+    "query": "如何離開 QEMU 終端",
+    "expected": [
+      "uboot"
+    ]
+  },
+  {
+    "query": "U-Boot 提示符代表 Linux 開機嗎",
+    "expected": [
+      "uboot"
+    ]
+  },
+  {
+    "query": "compatible bindings",
+    "expected": [
+      "devicetree"
+    ]
+  },
+  {
+    "query": "DTS DTB 硬體描述",
+    "expected": [
+      "devicetree"
+    ]
+  },
+  {
+    "query": "修改裝置樹可以替代驅動嗎",
+    "expected": [
+      "devicetree"
+    ]
+  },
+  {
+    "query": "match probe",
+    "expected": [
+      "drivers"
+    ]
+  },
+  {
+    "query": "如何保存核心組態",
+    "expected": [
+      "drivers"
+    ]
+  },
+  {
+    "query": "驅動綁定 bus",
+    "expected": [
+      "drivers"
+    ]
+  },
+  {
+    "query": "output/images",
+    "expected": [
+      "buildroot"
+    ]
+  },
+  {
+    "query": "root filesystem init 開機診斷",
+    "expected": [
+      "buildroot"
+    ]
+  },
+  {
+    "query": "virt-8.2 機器模型",
+    "expected": [
+      "buildroot"
+    ]
+  },
+  {
+    "query": "烘焙蛋糕食譜",
+    "expected": []
+  },
+  {
+    "query": "photosynthesis chlorophyll",
+    "expected": []
+  }
+]
