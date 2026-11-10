@@ -1,0 +1,83 @@
+[
+  {
+    "id": "bsp",
+    "title": "BSP 組成與平台邊界",
+    "topic": "overview",
+    "version": "Linux v6.12; QEMU v8.2.2",
+    "sources": [
+      "linux-boot",
+      "qemu"
+    ],
+    "reviewed": "2026-11-10",
+    "status": "source-checked; expert-review-pending",
+    "path": "bsp.md",
+    "license": "Original content; repository license not selected"
+  },
+  {
+    "id": "boot",
+    "title": "AArch64 Linux 啟動契約",
+    "topic": "boot",
+    "version": "Linux v6.12",
+    "sources": [
+      "linux-boot"
+    ],
+    "reviewed": "2026-11-10",
+    "status": "source-checked; expert-review-pending",
+    "path": "boot.md",
+    "license": "Original content; repository license not selected"
+  },
+  {
+    "id": "uboot",
+    "title": "U-Boot 在 QEMU 的角色",
+    "topic": "bootloader",
+    "version": "U-Boot v2024.10",
+    "sources": [
+      "uboot"
+    ],
+    "reviewed": "2026-11-10",
+    "status": "source-checked; expert-review-pending",
+    "path": "uboot.md",
+    "license": "Original content; repository license not selected"
+  },
+  {
+    "id": "devicetree",
+    "title": "Device Tree 硬體描述",
+    "topic": "devicetree",
+    "version": "Linux v6.12",
+    "sources": [
+      "linux-dt"
+    ],
+    "reviewed": "2026-11-10",
+    "status": "source-checked; expert-review-pending",
+    "path": "devicetree.md",
+    "license": "Original content; repository license not selected"
+  },
+  {
+    "id": "drivers",
+    "title": "核心設定與驅動綁定",
+    "topic": "drivers",
+    "version": "Linux v6.12; Linux v6.12",
+    "sources": [
+      "linux-config",
+      "linux-driver"
+    ],
+    "reviewed": "2026-11-10",
+    "status": "source-checked; expert-review-pending",
+    "path": "drivers.md",
+    "license": "Original content; repository license not selected"
+  },
+  {
+    "id": "buildroot",
+    "title": "Buildroot 映像與 QEMU 診斷",
+    "topic": "buildroot",
+    "version": "Buildroot 2024.02.1; QEMU v8.2.2",
+    "sources": [
+      "buildroot",
+      "qemu"
+    ],
+    "reviewed": "2026-11-10",
+    "status": "source-checked; expert-review-pending",
+    "path": "buildroot.md",
+    "license": "Original content; repository license not selected"
+  }
+]

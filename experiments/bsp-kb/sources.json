@@ -1,0 +1,121 @@
+[
+  {
+    "id": "linux-boot",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/Documentation/arch/arm64/booting.rst",
+    "version": "Linux v6.12",
+    "author": "Linux contributors",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "62fac4a52837763d7496a7c0beaecad02479526cc69a40daec0ee3671a42fe31",
+    "scope": "Entire raw file bytes at URL; hash is upstream content, not local summary",
+    "reuse_basis": "Public GPL project documentation consulted for factual verification; original Chinese explanation and source links only; no verbatim source body distributed.",
+    "permissions": {
+      "access": "public documentation",
+      "model_transmission": "public documentation only",
+      "redistribution": "source URL and metadata; no upstream full text"
+    },
+    "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  },
+  {
+    "id": "linux-dt",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/Documentation/devicetree/usage-model.rst",
+    "version": "Linux v6.12",
+    "author": "Linux contributors",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "2102b299de14faf021efab4ad11979d83a63629254e9438c1805a268446ba5ea",
+    "scope": "Entire raw file bytes at URL; hash is upstream content, not local summary",
+    "reuse_basis": "Public GPL project documentation consulted for factual verification; original Chinese explanation and source links only; no verbatim source body distributed.",
+    "permissions": {
+      "access": "public documentation",
+      "model_transmission": "public documentation only",
+      "redistribution": "source URL and metadata; no upstream full text"
+    },
+    "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  },
+  {
+    "id": "linux-driver",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/Documentation/driver-api/driver-model/binding.rst",
+    "version": "Linux v6.12",
+    "author": "Linux contributors",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "bd6eca0f9ef5307c44dfa99d9ce2a00d924c3cffa1e82dd455ff1761c0131aa1",
+    "scope": "Entire raw file bytes at URL; hash is upstream content, not local summary",
+    "reuse_basis": "Public GPL project documentation consulted for factual verification; original Chinese explanation and source links only; no verbatim source body distributed.",
+    "permissions": {
+      "access": "public documentation",
+      "model_transmission": "public documentation only",
+      "redistribution": "source URL and metadata; no upstream full text"
+    },
+    "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  },
+  {
+    "id": "linux-config",
+    "url": "https://raw.githubusercontent.com/torvalds/linux/v6.12/Documentation/admin-guide/README.rst",
+    "version": "Linux v6.12",
+    "author": "Linux contributors",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "22bb240a14acfd41d2fc94d0073974df76309ce20da3cfa9fb7d0c383788bc9c",
+    "scope": "Entire raw file bytes at URL; hash is upstream content, not local summary",
+    "reuse_basis": "Public GPL project documentation consulted for factual verification; original Chinese explanation and source links only; no verbatim source body distributed.",
+    "permissions": {
+      "access": "public documentation",
+      "model_transmission": "public documentation only",
+      "redistribution": "source URL and metadata; no upstream full text"
+    },
+    "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  },
+  {
+    "id": "uboot",
+    "url": "https://raw.githubusercontent.com/u-boot/u-boot/v2024.10/doc/board/emulation/qemu-arm.rst",
+    "version": "U-Boot v2024.10",
+    "author": "U-Boot contributors",
+    "license": "GPL-2.0-or-later",
+    "retrieved": "2026-11-10",
+    "sha256": "875bef02f919257ae2a288fdf45992db8f8b31dced22f67a54a5bde408f825f8",
+    "scope": "Entire raw file bytes at URL; hash is upstream content, not local summary",
+    "reuse_basis": "Public GPL project documentation consulted for factual verification; original Chinese explanation and source links only; no verbatim source body distributed.",
+    "permissions": {
+      "access": "public documentation",
+      "model_transmission": "public documentation only",
+      "redistribution": "source URL and metadata; no upstream full text"
+    },
+    "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  },
+  {
+    "id": "buildroot",
+    "url": "https://raw.githubusercontent.com/buildroot/buildroot/2024.02.1/docs/manual/quickstart.adoc",
+    "version": "Buildroot 2024.02.1",
+    "author": "Buildroot developers",
+    "license": "GPL-2.0-only",
+    "retrieved": "2026-11-10",
+    "sha256": "70db4da9d428ac445669b07cc2ffce861322e0b2194404f64deb9c39568bd59d",
+    "scope": "Entire raw file bytes at URL; hash is upstream content, not local summary",
+    "reuse_basis": "Public GPL project documentation consulted for factual verification; original Chinese explanation and source links only; no verbatim source body distributed.",
+    "permissions": {
+      "access": "public documentation",
+      "model_transmission": "public documentation only",
+      "redistribution": "source URL and metadata; no upstream full text"
+    },
+    "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  },
+  {
+    "id": "qemu",
+    "url": "https://raw.githubusercontent.com/qemu/qemu/v8.2.2/docs/system/arm/virt.rst",
+    "version": "QEMU v8.2.2",
+    "author": "QEMU contributors",
+    "license": "GPL-2.0-or-later",
+    "retrieved": "2026-11-10",
+    "sha256": "87c4dad29a1818b06bb98bd422463bc417e2dcebb43f1f51ca32f164c0f24ef1",
+    "scope": "Entire raw file bytes at URL; hash is upstream content, not local summary",
+    "reuse_basis": "Public GPL project documentation consulted for factual verification; original Chinese explanation and source links only; no verbatim source body distributed.",
+    "permissions": {
+      "access": "public documentation",
+      "model_transmission": "public documentation only",
+      "redistribution": "source URL and metadata; no upstream full text"
+    },
+    "transformations": "Original Traditional Chinese instructional synthesis; not a translation"
+  }
+]
