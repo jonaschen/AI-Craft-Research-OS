@@ -64,3 +64,7 @@ python3 -m bsp_kb diagnose-uart tests/fixtures/uart/rootfs.txt
 `check` 重新計算預期產物，回報 missing／changed／unexpected；漂移時結束碼為 1。manifest 將內容、編譯器與產物雜湊綁定；它不是數位簽章或來源真實性的證明。四個 Diátaxis 入口標示內容缺口，不將原有概念教材冒稱完整教學課程。技能包是建置產物，不自動安裝或啟用。
 
 UART 分析是純文字規則工具：不連接硬體、不執行日誌命令、不判定唯一根因。樣本全為合成測試，輸出只含匹配標記而不附原始整行。詳見新增教材與 `tests/fixtures/uart/README.md`。
+
+## MCP consumer integration
+
+The skill-set repository consumes versioned public bundles through optional read-only tools. See [bundle contract and release procedure](BUNDLE_CONTRACT.md).

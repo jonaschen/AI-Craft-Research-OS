@@ -120,7 +120,7 @@ def render_views(root):
     if before != _fingerprints(paths):
         raise ValueError('corpus changed during compilation; retry with a stable corpus')
     output_hashes = {name: digest(data) for name, data in sorted(files.items())}
-    manifest = {'schema_version': 1, 'inputs': before, 'outputs': output_hashes,
+    manifest = {'schema_version': 1, 'bundle_format': 'bsp-knowledge', 'bundle_version': 1, 'inputs': before, 'outputs': output_hashes,
                 'revision': digest(encode(before)), 'bundle_sha256': digest(encode(output_hashes)),
                 'entry_count': len(entries), 'chunk_count': len(chunks),
                 'scope': 'Registered public corpus only; no evaluation answers or upstream full text.',
